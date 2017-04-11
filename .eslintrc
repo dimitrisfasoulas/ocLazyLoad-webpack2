@@ -1,0 +1,15 @@
+{
+   "parser": "babel-eslint",
+   "parserOptions": {
+      "sourceType": "module",
+      "allowImportExportEverywhere": false,
+      "codeFrame": false
+   },
+   "rules": {
+      "spaced-comment": [2, "always", { "exceptions": ["@ngInject"] }]
+   },
+   "env": {
+      "browser": true,
+      "node": true
+   }
+}
